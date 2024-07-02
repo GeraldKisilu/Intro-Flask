@@ -33,7 +33,7 @@ def index():
 
 @app.route('/')
 def home():
-    return{"msg":"Welcome to Phase 4!"}
+    return{"msg":"Welcome to Phase 4, we will be learning about Flask!"}
 
 
 @app.route('/about')
